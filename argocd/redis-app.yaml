@@ -22,7 +22,7 @@ spec:
         - name: pdb.create
           value: 'true'
         - name: replica.persistence.storageClass
-          value: managed-nfs-storage
+          value: nfs-client
         - name: replica.replicaCount
           value: '1'
 #        - name: master.resources.requests.memory
