@@ -14,11 +14,11 @@ spec:
     helm:
       parameters:
         - name: global.storageClass
-          value: managed-nfs-storage
+          value: nfs-client
         - name: global.redis.password
           value: 'qUwTt8g9it'
         - name: master.persistence.storageClass
-          value: managed-nfs-storage
+          value: nfs-client
         - name: pdb.create
           value: 'true'
         - name: replica.persistence.storageClass
