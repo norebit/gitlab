@@ -19,6 +19,7 @@ metadata:
   name: pgadmin-svc
   labels:
     name: postgres-operator
+  namespace: gitlab
 spec:
   ports:
     - protocol: TCP
