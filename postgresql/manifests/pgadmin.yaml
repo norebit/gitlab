@@ -91,7 +91,7 @@ kind: Ingress
 metadata:
   name: pgadmin
 spec:
-  ingressClassName: system-ingress
+  ingressClassName: nginx
   rules:
     - host: pg.kube.local
       http:
