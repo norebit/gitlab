@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/norebit'
-    path: gitlab/minio-console/manifests
+    repoURL: 'https://github.com/norebit/gitlab'
+    path: minio-console/manifests
     targetRevision: master
   destination:
     server: 'https://kubernetes.default.svc'

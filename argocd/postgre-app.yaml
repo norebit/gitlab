@@ -8,8 +8,8 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: 'https://github.com/norebit'
-    path: gitlab/postgresql/manifests
+    repoURL: 'https://github.com/norebit/gitlab'
+    path: postgresql/manifests
     targetRevision: master
   destination:
     server: 'https://kubernetes.default.svc'
