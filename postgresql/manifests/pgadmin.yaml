@@ -90,6 +90,7 @@ apiVersion: networking.k8s.io/v1
 kind: Ingress
 metadata:
   name: pgadmin
+  namespace: gitlab
 spec:
   ingressClassName: nginx
   rules:

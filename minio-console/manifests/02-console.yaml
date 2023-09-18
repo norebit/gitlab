@@ -52,9 +52,9 @@ metadata:
   #   kubernetes.io/ingress.class: "system-ingress"
 spec:
   ## Fix to new versions of ingress controllers
-  ingressClassName: "system-ingress"
+  ingressClassName: "nginx"
   rules:
-    - host: "minio.kryukov.local"
+    - host: "minio.kube.local"
       http:
         paths:
           - path: /
