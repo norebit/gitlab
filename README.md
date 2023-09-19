@@ -446,3 +446,5 @@ helm upgrade gitlab gitlab/gitlab -n gitlab -f gl-values.yaml
 * [Rutube](https://rutube.ru/video/c1c366f5bf2430541041838f009f0594/)
 * [Zen](https://dzen.ru/video/watch/64be1959dff44977f6bf675e)
 * [Youtube](https://youtu.be/mQAdGy9YOBg)
+
+Материал взят с сайта https://www.kryukov.biz
