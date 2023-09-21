@@ -41,7 +41,7 @@ global:
     host: postgres-np
     port: 5432
     database: gitlab
-    username: artur
+    username: user
     password:
       useSecret: true
       secret: postgres-secret
