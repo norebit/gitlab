@@ -49,7 +49,7 @@ global:
 
   ingress:
     configureCertmanager: false
-    class: system-ingress
+    class: nginx
 #    provider: nginx
     tls:
       enabled: false
